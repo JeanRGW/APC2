@@ -28,15 +28,11 @@ bool senhaValida(string senha){
     for(i; i>=0; i--){
         ascii = senha[i];
 
-        if(ascii > 64 && ascii < 91){
-            mai = true;
-        }
-
         if(ascii > 96 && ascii < 123){
             min = true;
-        }
-
-        if(ascii > 47 && ascii < 58){
+        } else if(ascii > 64 && ascii < 91){
+            mai = true;
+        } else if(ascii > 47 && ascii < 58){
             num = true;
         }
     }
