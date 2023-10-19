@@ -1,0 +1,12 @@
+C. Explique, com suas palavras, os conceitos/significados dos seguintes termos:
+
+1. Funções
+    Funções são "blocos" de código que realizam uma função específica, sendo utilizados para organizar ou modularizar o código, sendo especialmente útil quando um mesmo bloco de código costuma ser utilizado muitas vezes.
+2. Argumentos/Parâmetros
+    São valores/variáveis passados às funções para serem utilizados durante seu processamentos, como na função pow(x, y), onde a variáveis x e y é são passadas como base e expoente de uma potência.
+3. Tipos de funções
+    As funções tem vários tipos (void, int, float, char...) mas podem ser divididas mais geralmente em funções com retorno ou sem retorno (void), as funções com retorno podem ser utilizadas para obter um dado ou realizar uma conta, cujo resultado será utilizado posteriormente à sua chamada 
+4. void
+
+5. Tipos de passagem de parâmetro (qual o padrão do C/C++?)
+6. Retorno de uma função (quais os tipos de retorno?)
