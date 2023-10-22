@@ -7,6 +7,8 @@ C. Explique, com suas palavras, os conceitos/significados dos seguintes termos:
 3. Tipos de funções
     As funções tem vários tipos (void, int, float, char...) mas podem ser divididas mais geralmente em funções com retorno ou sem retorno (void), as funções com retorno podem ser utilizadas para obter um dado ou realizar uma conta, cujo resultado será utilizado posteriormente à sua chamada 
 4. void
-
+    O tipo void é usado para declarar funções que não retornam nenhum valor. Essas funções são usadas para realizar tarefas sem gerar um resultado utilizável posteriormente.
 5. Tipos de passagem de parâmetro (qual o padrão do C/C++?)
+    Os dois principais tipos de passagem de parâmetro são a passagem por valor, que faz uma copia independente dos valores dos parâmetros, e a passagem por referência que permite acessar diretamente as variáveis originais. O padrão em C/C++ é a passagem por valor.
 6. Retorno de uma função (quais os tipos de retorno?)
+    O retorno de uma função em pode ser de vários tipos, como int, float, char, etc. Esse tipo é especificado na declaração e indica o tipo de dado que a função fornecerá após a execução.
