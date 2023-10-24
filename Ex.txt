@@ -1,0 +1,19 @@
+A
+    1.Serão escritos, respectivamente, o valor de i (5) e o endereço de memória da variável i. 
+
+    2.Serão escritos os endereços de memória das variáveis conta, salario e resposta.
+
+    3.Será escrito 55, o endereço de memória da variável num e 55.
+
+B
+    1. e) int *pti;
+
+    2. c) pti = &i;
+
+    3. As intruções b e d também são válidas. A instrução b (i = *pti) atribui à variável i o valor da variàvel para qual pti aponta. A instrução d (int pti) declara uma variável inteira pti.
+
+C
+    A afirmativa 5 está incorreta, pti tem o valor do endereço da variável i.
+
+D
+   ...
