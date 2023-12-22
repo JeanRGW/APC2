@@ -1,0 +1,23 @@
+1.
+a) A eficiência de tempo de um algoritmo refere-se ao tempo que ele leva para ser executado, expresso como uma função que relaciona o tamanho do problema com o tempo de execução. A menor complexidade é O(1), tempo constante, e a maior é O(n^2), proporcional ao quadrado do tamanho do problema.
+
+b) Fatores físicos como velocidade do processador, memória e latência do disco podem influenciar a eficiência de tempo, mas programadores concentram-se na complexidade em termos de tamanho do problema versus tempo.
+
+c) Na prática, programadores usam a eficiência de tempo expressa em complexidades como O(1), O(n), O(n log n), ou O(n^2) usando a notação big-O, descrevendo limites superiores assintóticos de funções.
+
+d) Ao abstrair detalhes da máquina no modelo de computação, programadores simplificam análises e projetos de algoritmos, focando nas características essenciais como complexidade de tempo e espaço.
+
+e) A notação big-O é amplamente usada para comparar eficiências de algoritmos independentemente de suas implementações.
+
+
+
+2.
+A notação Big-Oh descreve a complexidade de tempo de um algoritmo em relação ao tamanho do problema. É baseada em funções matemáticas expressando limites superiores assintóticos, representando a quantidade de tempo necessária para a execução.
+
+
+
+3.
+Este algoritmo, independente dos dados ou memória, tem uma complexidade de tempo mínima de O(n^2) e máxima de O(n^2*2^n).
+Utilizando dois loops aninhados para verificar modificadores de elementos na matriz x, a quantidade de instruções realizadas no pior caso é usada para representar a complexidade de tempo.
+O primeiro loop executa n vezes, enquanto o segundo, dependendo do primeiro, pode ser executado 2n vezes ou n vezes em casos específicos, representando respectivamente o pior e melhor caso.
+Assim, a complexidade de tempo desse algoritmo é O(n^2).
